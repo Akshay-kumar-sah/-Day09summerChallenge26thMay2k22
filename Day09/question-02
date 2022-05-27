@@ -1,0 +1,13 @@
+Question 02 : LeetCode 28 Implement strStr()
+Solution :
+class Solution {
+    public int strStr(String haystack, String needle) {
+       int index = -1;
+        if(needle == ""){
+            index = 0;
+        }else{
+            index = haystack.indexOf(needle, 0);
+        }
+        return index;
+    }
+}
